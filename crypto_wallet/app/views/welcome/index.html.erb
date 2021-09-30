@@ -1,5 +1,7 @@
 <h1>SEJA BEM-VINDO!</h1>
-<p><strong>Data:</strong> <%= data_br(Date.today) %></p>
+<p>O idioma usado nesta aplicação é: <strong> <%= t('actual_locale') %> </strong></p>
+<p><strong>Data:</strong> <%= l(Date.today) %></p>
+<p><%= t('hello')%></p>
 
 <%= render "menu"%>
 
